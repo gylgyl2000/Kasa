@@ -1,0 +1,26 @@
+.footer {
+    background: black;
+    color: #ffff;
+    height: 209px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+.footer img {
+    width: 122px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+@media (min-width: 992px) {
+    .footer p {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,63 @@
+.card {
+    position: relative;
+    background: linear-gradient(180deg, rgba(229, 76, 76, 0.69) 0%, #ff6060 100%);
+    height: 255px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:0.5s;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .card {
+        height: 340px;
+        width: 340px;
+    }
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    height: 255px;
+    width: 100%;
+    border-radius:10px;
+    object-fit: cover;
+    position: absolute;
+}
+
+@media (min-width: 992px) {
+    .card img {
+        height: 340px;
+        width: 340px;
+    }
+}
+
+.card h4 {
+    position: relative;
+    width: auto;
+    height: 240px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 10;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: inherit;
+    background: linear-gradient(180deg,hsla(0,0%,100%,0),rgba(0,0,0,.5));
+    padding: 0px 0 15px 15px;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    .card h4 {
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        padding: 0px 0 20px 20px;
+    }
+}

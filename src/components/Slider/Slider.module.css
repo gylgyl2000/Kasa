@@ -1,0 +1,67 @@
+.imgSlide {
+    display: flex;
+    height: 255px;
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .imgSlide {
+        height: 415px;
+    }
+}
+
+.imgSlide img.slides {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .imgSlide img.slides {
+        border-radius: 15px;
+    }
+}
+
+.imgSlide button {
+    background: none;
+    border: 0;
+    height: 100%;
+}
+
+.leftBtn {
+    position: absolute;
+    left: 0;
+}
+
+.rightBtn {
+    position: absolute;
+    right: 0;
+}
+
+.arrowImg {
+   height: 24px;
+   cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .arrowImg {
+        height: 50px;
+    }
+}
+
+.count {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .count {
+        font-size: 18px;
+    }
+}

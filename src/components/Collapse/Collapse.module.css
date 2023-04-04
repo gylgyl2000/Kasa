@@ -1,0 +1,14 @@
+.infos {
+    width: 86%;
+    margin: 40px auto 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 992px) {
+    .infos {
+        width: 75%;
+        gap: 30px;
+    }
+}

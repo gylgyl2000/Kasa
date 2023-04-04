@@ -1,0 +1,25 @@
+.cards {
+    width: 86%;
+    height: 100%;
+    background: none;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    .cards {
+        background: #F7F7F7;
+        border-radius: 25px;
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 340px);
+        justify-content: center;
+        grid-gap:30px;
+        padding: 40px 0;
+    }
+}

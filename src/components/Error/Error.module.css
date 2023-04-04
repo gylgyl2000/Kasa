@@ -1,0 +1,55 @@
+.error {
+    color:#FF6060;
+    text-align: center;
+    margin: 170px auto;
+}
+
+@media (min-width: 992px) {
+    .error {
+        margin: 50px auto;
+    }
+}
+
+.error h1 {
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    .error h1 {
+        font-size: 288px;
+    }
+}
+
+.error p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 30px;
+}
+
+@media (min-width: 992px) {
+    .error p {
+        font-size: 36px;
+        margin: 30px;
+    }
+}
+
+.link {
+    color:#FF6060;
+    list-style-type: none;
+}
+
+.link p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 150px auto 230px;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .link p {
+        font-size: 18px;
+        margin: 200px auto;
+    }
+}
