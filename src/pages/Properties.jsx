@@ -1,8 +1,8 @@
 import React from "react";
-import Property from "../components/Property";
+import Property from "../components/Property/Property";
 import Data from "../data/logements";
 
-const property = () => {
+const Properties = () => {
   return (
     <div>
       <Property data={Data} />
@@ -10,4 +10,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default Properties;
