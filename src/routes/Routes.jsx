@@ -6,15 +6,16 @@ import Properties from "../pages/Properties";
 import Error404 from "../pages/Error404";
 
 const routes = () => {
-    return (
-      <Routes>
-        <Route path="/Kasa/" element={<Home />} />
-        <Route path="/Kasa/about" element={<About />} />
-        <Route path="/Kasa/property/:id" element={<Properties />} />
-        <Route path="/Kasa/404" element={<Error404 />} />
-        <Route path="*" element={ <Navigate to="/Kasa/404" replace /> } />
-      </Routes>
-    );
-  };
-  
-  export default routes;
+  return (
+    <Routes>
+      <Route path="/Kasa/" element={<Home />} />
+      <Route path="/Kasa/about" element={<About />} />
+      <Route path="/Kasa/property/:id" element={<Properties />} />
+      <Route path="/Kasa/404" element={<Error404 />} />
+      <Route path="*" element={ <Navigate to="/Kasa/404" replace /> } />
+    </Routes>
+  );
+};
+
+export default routes;
+
