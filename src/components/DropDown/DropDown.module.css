@@ -54,14 +54,14 @@
 .desc {
     font-size: 0px;
     opacity: 0;
-    visibility: 0;
+    /* visibility: hidden;  */
     transition: 0.2s;
 }
 
 .switch {
     font-size: 12px;
     opacity: 1;
-    visibility: 1;
+    /* visibility: visible; */
     background: #F7F7F7;
     color: #FF6060;
     padding: 20px 16px 10px;
