@@ -8,8 +8,8 @@ const Header = () => {
         <div className={styles.navigation}>
             <img src={Logo} alt="Logo Kasa" />
             <ul>
-                <li><NavLink to="/" className={({ isActive }) => isActive ? `${styles.active}` : ""}>Accueil</NavLink></li>
-                <li><NavLink to="/about" className={({ isActive }) => isActive ? `${styles.active}` : ""}>A propos</NavLink></li>
+                <li><NavLink to="/Kasa" className={({ isActive }) => isActive ? `${styles.active}` : ""}>Accueil</NavLink></li>
+                <li><NavLink to="/Kasa/about" className={({ isActive }) => isActive ? `${styles.active}` : ""}>A propos</NavLink></li>
             </ul>
         </div>
     );

@@ -8,11 +8,11 @@ import Property from "../components/Property/Property";
 const routes = () => {
     return (
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/property/:id" element={<Property />} />
-        <Route path="/404" element={<Error404 />} />
-        <Route path="*" element={ <Navigate to="/404" replace /> } />
+        <Route path="/Kasa/" element={<Home />} />
+        <Route path="/Kasa/about" element={<About />} />
+        <Route path="/Kasa/property/:id" element={<Property />} />
+        <Route path="/Kasa/404" element={<Error404 />} />
+        <Route path="*" element={ <Navigate to="/Kasa/404" replace /> } />
       </Routes>
     );
   };
