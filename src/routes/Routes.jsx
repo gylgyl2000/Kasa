@@ -12,7 +12,7 @@ const routes = () => {
       <Route path="/Kasa/about" element={<About />} />
       <Route path="/Kasa/property/:id" element={<Properties />} />
       <Route path="/Kasa/404" element={<Error404 />} />
-      <Route path="*" element={ <Navigate to="/Kasa/404" replace /> } />
+      <Route path="/Kasa/*" element={ <Navigate to="/Kasa/404" replace /> } />
     </Routes>
   );
 };
