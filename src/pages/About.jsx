@@ -6,7 +6,9 @@ import styles from "../components/Banner/Banner.module.css"
 const About = () => {
   return (
     <div className="aboutCard">
-      <Banner title="" classBanner={styles.about_banner} />
+      <Banner 
+        // title=""
+        classBanner={styles.about_banner} />
       <CollapseCard />
     </div>
   );

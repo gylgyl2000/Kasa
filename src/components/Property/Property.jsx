@@ -1,5 +1,5 @@
 import react from 'react';
-import { useParams } from "react-router-dom"
+import { useParams, Navigate } from "react-router-dom"
 import Logement from "../../data/logements"
 import Slider from '../Slider/Slider';
 import DropDown from '../DropDown/DropDown';
@@ -10,6 +10,9 @@ const Property = () => {
     const params = useParams()
     const id = params.id
     const data = Logement.find((logement) => logement.id === id)
+    if (data == null) {
+        return <Navigate to="/Kasa/404" replace />
+    }
     
     return (
         <div>
